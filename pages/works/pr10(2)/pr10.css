@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+  }
+  li {
+    list-style-type: none;
+  }
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+  }
+  article {
+    width: 272px;
+    height: 464px;
+    color: black;
+  
+    margin-bottom: 30px;
+    border-radius: 10px;
+  }
+  article:nth-child(1) {
+    background-color: #fafafa;
+    background-size: cover;
+  }
+  article:nth-child(2) {
+    background-color: #fafafa;
+    background-size: cover;
+  }
+  article:nth-child(3) {
+    background-color: #fafafa;
+    background-size: cover;
+  }
+  article:nth-child(4) {
+    background-color: #fafafa;
+    background-size: cover;
+  }
+  article:nth-child(5) {
+    background: url("img/Mask\ Group\ \(4\).png");
+    background-size: cover;
+    width: 1158px;
+    height: 216px;
+  }
+  article:nth-child(2n-1) {
+    margin-right: 30px;
+  }
+  
+  @font-face {
+    font-family: RobotoRegular;
+    src: url("/font/Roboto/Roboto-Regular.ttf");
+  }
+  article h3 {
+    font-size: 20px;
+    line-height: 42px;
+    color: #f19f00;
+    margin: 5px;
+  }
+  article .svai {
+    font-family: RobotoRegular;
+    font-size: 24px;
+  }
+  .svai span {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin: 5px;
+  }
+  img {
+    width: 272px;
+    height: 194px;
+  }
+  
